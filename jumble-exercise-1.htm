@@ -40,7 +40,7 @@ body{
 	font-family: Palatino, serif;
 	background-color: #004040;
 	color: #000000;
- 
+	background-image: url(Tardis_wallpaper_black_edition_by_mrgrandhighmonkey-d5zg6vx.png); 
 	margin-right: 5%;
 	margin-left: 5%;
 	font-size: 19px;
@@ -80,7 +80,7 @@ button{
 }
 
 div.StdDiv{
-	background-color: opacity: 0.6; #c0c0c0;
+	background-color: #c0c0c0;
 	text-align: center;
 	font-size: 100%;
 	color: #000000;
@@ -222,7 +222,7 @@ table.FlashcardTable tr{
 	border-style: none;
 	margin: 0px;
 	padding: 0px;
-	background-color: opacity: 0.6; #c0c0c0;
+	background-color: #c0c0c0;
 }
 
 table.FlashcardTable td.Showing{
@@ -235,7 +235,7 @@ table.FlashcardTable td.Showing{
 	border-style: solid;
 	border-width: 1px;
 	color: #000000;
-	background-color: opacity: 0.6; #c0c0c0;
+	background-color: #c0c0c0;
 }
 
 table.FlashcardTable td.Hidden{
@@ -472,12 +472,12 @@ div.ShortAnswer{
 	text-align: center;
 	border-style: solid;
 
-	border-left-color: #bfd5bf;
-	border-top-color: #bfd5bf;
-	border-right-color: #405640;
-	border-bottom-color: #405640;
+	border-left-color: #dfdfdf;
+	border-top-color: #dfdfdf;
+	border-right-color: #606060;
+	border-bottom-color: #606060;
 	color: #000000;
-	background-color: opacity: 0.6; #c0c0c0;
+	background-color: #c0c0c0;
 
 	border-width: 2px;
 	padding: 3px 6px 3px 6px;
@@ -485,33 +485,33 @@ div.ShortAnswer{
 }
 
 .FuncButtonUp {
-	color: opacity: 0.6; #c0c0c0;
+	color: #c0c0c0;
 	text-align: center;
 	border-style: solid;
 
-	border-left-color: #bfd5bf;
-	border-top-color: #bfd5bf;
-	border-right-color: #405640;
-	border-bottom-color: #405640;
+	border-left-color: #dfdfdf;
+	border-top-color: #dfdfdf;
+	border-right-color: #606060;
+	border-bottom-color: #606060;
 
 	background-color: #000000;
-	color: opacity: 0.6; #c0c0c0;
+	color: #c0c0c0;
 	border-width: 2px;
 	padding: 3px 6px 3px 6px;
 	cursor: pointer;
 }
 
 .FuncButtonDown {
-	color: opacity: 0.6; #c0c0c0;
+	color: #c0c0c0;
 	text-align: center;
 	border-style: solid;
 
-	border-left-color: #405640;
-	border-top-color: #405640;
-	border-right-color: #bfd5bf;
-	border-bottom-color: #bfd5bf;
+	border-left-color: #606060;
+	border-top-color: #606060;
+	border-right-color: #dfdfdf;
+	border-bottom-color: #dfdfdf;
 	background-color: #000000;
-	color: opacity: 0.6; #c0c0c0;
+	color: #c0c0c0;
 
 	border-width: 2px;
 	padding: 3px 6px 3px 6px;
@@ -592,7 +592,7 @@ div.CardStyle {
 	border-style: solid;
 	border-width: 1px;
 	color: #000000;
-	background-color: opacity: 0.6; #c0c0c0;
+	background-color: #c0c0c0;
 	left: -50px;
 	top: -50px;
 	overflow: visible;
@@ -1110,12 +1110,12 @@ Card.prototype.SwapColours=CardSwapColours;
 
 function CardHighlight(){
 	this.css.backgroundColor='#000000';
-	this.css.color='opacity: 0.6; #c0c0c0';
+	this.css.color='#c0c0c0';
 }
 Card.prototype.Highlight=CardHighlight;
 
 function CardUnhighlight(){
-	this.css.backgroundColor='opacity: 0.6; #c0c0c0';
+	this.css.backgroundColor='#c0c0c0';
 	this.css.color='#000000';
 }
 Card.prototype.Unhighlight=CardUnhighlight;
@@ -1230,7 +1230,7 @@ var TheseAnswersToo = 'These answers are also correct:';
 var YourScoreIs = 'Your score is ';
 var NextCorrect = 'The next correct part is: ';
 var FeedbackWidth = 200; //default
-var ExBGColor = 'opacity: 0.6; #c0c0c0';
+var ExBGColor = '#c0c0c0';
 var PageBGColor = '#004040';
 var TextColor = '#000000';
 var TitleColor = '#000000';
@@ -1709,7 +1709,7 @@ function StartUp(){
 		Cds[i].css.cursor = 'move';
 		TempInt = Cds[i].GetH();
 		CurrTop = CurrTop + TempInt + 5;
-		Cds[i].css.backgroundColor = 'opacity: 0.6; #c0c0c0';
+		Cds[i].css.backgroundColor = '#c0c0c0';
 		Cds[i].css.color = '#000000';
 		topZ++;
 		Cds[i].css.zIndex = topZ;
